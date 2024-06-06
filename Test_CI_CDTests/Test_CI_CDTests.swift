@@ -10,6 +10,7 @@ import XCTest
 
 final class Test_CI_CDTests: XCTestCase {
 
+    let sut = ContentView()
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -31,6 +32,11 @@ final class Test_CI_CDTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func textFieldTestings() {
+        var txt = sut.text.fastestEncoding
+        
     }
 
 }
