@@ -11,7 +11,7 @@ struct ContentView: View {
     @State var text = "Hello world, XCode Cloud"
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "globeeklrjlwjerlkwjelrjwelkjrlkwejrlwjerlkjwlkjrlwkr")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text(text)
